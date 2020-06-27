@@ -46,10 +46,10 @@ This project is broken down into 3 categories:
     - For this project we will use the following models for forecasting:
       - SARIMA (Seasonal - Autoregressive Integrated Moving Average)
       - Facebook Prophet
-      - LSTM: 
+      - LSTM (Long Short Term Memory) Networks: 
             
             - LSTM
-            - GRU
+            - GRU (Gated Recurrent Units)
             - Bidirectional LSTM
             - Convolutional LSTM
 
@@ -59,6 +59,7 @@ This project is broken down into 3 categories:
     - Numpy
     - Sci-kit learn
     - Statsmodels
+    - Pmdarima
     - Plotly
     - GeoPandas
     - Keras
