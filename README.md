@@ -6,7 +6,15 @@
 [image4]: ./analytics_viz/van_trd.png "van_trd"
 [image5]: ./analytics_viz/rd_cat.png "rd_cat"
 [image6]: ./analytics_viz/reg_trd.png "regions"
-[image7]: ./analytics_viz/veh_flow.png "veh_flow"
+[image7]: ./analytics_viz/motor_trd.JPG "veh_flow"
+[image8]: ./analytics_viz/hvg_flow.JPG "hvg_flow"
+[image9]: ./analytics_viz/bus_flow.JPG "bus_flow"
+[image10]: ./analytics_viz/reg_acc.png "reg_acc"
+[image11]: ./analytics_viz/rd_net.png "rd_net"
+[image12]: ./analytics_viz/acc_trd.JPG "acc_trd"
+[image13]: ./analytics_viz/hr_flow.JPG "hr_flow"
+[image14]: ./analytics_viz/sar_fr.JPG "sar"
+[image15]: ./analytics_viz/fb_forecast.JPG "fb_forecast"
 
 # Predictive_Analytics_UK_Road_Traffic_Accident
 
@@ -60,7 +68,7 @@ This project is broken down into 3 categories:
 ![uk_road][image1]
 
 
-### Road Analytics Results and Visualization  (Just a few insightful visualizations.....)
+### Analytics Results and Visualization  (Just a few insightful visualizations.....)
 
 ![veh_trd][image2]
 ![pedal_trd][image3]
@@ -68,3 +76,23 @@ This project is broken down into 3 categories:
 ![rd_cat][image5]
 ![regions][image6]
 ![veh_flow][image7]
+![hvg_flow][image8]
+![bus_flow][image9]
+![reg_acc][image10]
+![rd_net][image11]
+![acc_trd][image12]
+![hr_flow][image13]
+
+
+
+
+### Time series Forecast Results 
+
+- For the time series predictions / forecast, only **SARIMA and Facebook Prophet** were used to forecast the accident rates for the next 2 years, this is because when the data was aggregated ***monthly*** for the modelling, it became small and when trained on the LSTM models they weren't able to generalize well on un-seen data ***(after long hours of trials and experimenting with the LSTM hyperparameters)***. As a result, of this we didn't use them for forecasting.
+
+
+### Time Series Forecast
+
+![sar_fr][image14]
+![fb_forecast][image15]
+
