@@ -68,7 +68,7 @@ This project is broken down into 3 categories:
 ![uk_road][image1]
 
 
-### Analytics Results and Visualization  (Just a few insightful visualizations.....)
+### Analytics Results and Visualization  (Just a few insightful visualizations.....further check the notebooks for more insights)
 
 ![veh_trd][image2]
 ![pedal_trd][image3]
