@@ -93,6 +93,12 @@ This project is broken down into 3 categories:
 
 ### Time Series Forecast
 
+#### - SARIMA (Seasonal - Autoregressive Integrated Moving Average) model
 ![sar_fr][image14]
+
+
+
+
+#### - Facebook Prophet model
 ![fb_forecast][image15]
 
