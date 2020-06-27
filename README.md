@@ -1,12 +1,12 @@
 [//]: # (Image References)
 
 [image1]: ./uk_region.png "uk_road"
-[image2]: ./analytics_viz/veh_trend "veh_trd"
-[image3]: ./analytics_viz/pedal_trd "pedal_trd"
-[image4]: ./analytics_viz/van_trd "van_trd"
-[image5]: ./analytics_viz/rd_cat "rd_cat"
-[image6]: ./analytics_viz/reg_trd "regions"
-[image7]: ./analytics_viz/veh_flow "veh_flow"
+[image2]: ./analytics_viz/veh_trend.png "veh_trd"
+[image3]: ./analytics_viz/pedal_trd.png "pedal_trd"
+[image4]: ./analytics_viz/van_trd.png "van_trd"
+[image5]: ./analytics_viz/rd_cat.png "rd_cat"
+[image6]: ./analytics_viz/reg_trd.png "regions"
+[image7]: ./analytics_viz/veh_flow.png "veh_flow"
 
 # Predictive_Analytics_UK_Road_Traffic_Accident
 
