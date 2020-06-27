@@ -1,7 +1,12 @@
 [//]: # (Image References)
 
 [image1]: ./uk_region.png "uk_road"
-
+[image2]: ./analytics_viz/veh_trend "veh_trd"
+[image3]: ./analytics_viz/pedal_trd "pedal_trd"
+[image4]: ./analytics_viz/van_trd "van_trd"
+[image5]: ./analytics_viz/rd_cat "rd_cat"
+[image6]: ./analytics_viz/reg_trd "regions"
+[image7]: ./analytics_viz/veh_flow "veh_flow"
 
 # Predictive_Analytics_UK_Road_Traffic_Accident
 
@@ -15,13 +20,13 @@ This project is broken down into 3 categories:
 #### 1. Road Traffic Analytics and Visualization [uk_road_traffic](https://nbviewer.jupyter.org/github/AdeboyeML/Predictive_Analytics_UK_Road_Traffic_Accident/blob/master/UK_Traffic_Analysis_Visualization.ipynb)
 
 
-- This aspect of the project gives detailed insights into United Kingdom (UK) long-term road traffic trends between 2000 - 2018 based on estimated **Annual average daily flows (AADFs) and volume of traffic (i.e. miles driven per year for each vehicle on a particular road)** for vehicle types, road networks, geographical regions, road types and highway authorities.
+- This aspect of the project gives takes a descriptive look into United Kingdom (UK) long-term road traffic trends between 2000 - 2018 based on estimated **Annual average daily flows (AADFs) and volume of traffic (i.e. miles driven per year for each vehicle on a particular road)** for vehicle types, road networks, geographical regions, road types and highway authorities.
 
 
 #### 2. Road Accident Analytics and Visualization [uk_road_accident](https://nbviewer.jupyter.org/github/AdeboyeML/Predictive_Analytics_UK_Road_Traffic_Accident/blob/master/UK_road_accident_analytics.ipynb)
 
 
-- This aim of this part gives detailed insights into United Kingdom (UK) long-term road accident trends between 2005 - 2014, which includes but not limited to potential casualties due to road accidents, areas most affected by accidents, highway authorities notorious for road accidents and those that are the "safest", conditions likely to cause accidents and road types and geographical regions well known for acidents.
+- This aspect of this project takes a detailed look into United Kingdom (UK) long-term road accident trends between 2005 - 2014, which includes but not limited to potential casualties due to road accidents, areas most affected by accidents, highway authorities notorious for road accidents and those that are the "safest", conditions likely to cause accidents and road types and geographical regions well known for acidents.
 
 
 #### 3. Timeseries forecasting of the rate of road accident in UK for the next 2 years. [TimeSeries Forecast](https://nbviewer.jupyter.org/github/AdeboyeML/Predictive_Analytics_UK_Road_Traffic_Accident/blob/master/UK_Road_Accident_Timeseries_Forecasting.ipynb)
@@ -55,8 +60,11 @@ This project is broken down into 3 categories:
 ![uk_road][image1]
 
 
-### Results and Visualization  
+### Road Analytics Results and Visualization  (Just a few insightful visualizations.....)
 
-
-
-
+![veh_trd][image2]
+![pedal_trd][image3]
+![van_trd][image4]
+![rd_cat][image5]
+![regions][image6]
+![veh_flow][image7]
