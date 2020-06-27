@@ -34,6 +34,7 @@ This project is broken down into 3 categories:
       - SARIMA (Seasonal - Autoregressive Integrated Moving Average)
       - Facebook Prophet
       - LSTM: 
+            
             - LSTM
             - GRU
             - Bidirectional LSTM
