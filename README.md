@@ -3,7 +3,7 @@
 [image1]: ./uk_region.png "uk_road"
 
 
-# Predictive_Analytics_Timeseries_Forecasting_UK_Road_Traffic_Accident
+# Predictive_Analytics_UK_Road_Traffic_Accident
 
 
 #### This project entails performing in-depth descriptive analysis and data visualization on the United Kingdom road traffic (2000 - 2018) and accident dataset (2005 - 2014) and further forecasting / predicting the rate of accident for the next two years based on the available time series dataset.
@@ -53,5 +53,10 @@ This project is broken down into 3 categories:
     - Matplotlib
 
 ![uk_road][image1]
+
+
+### Results and Visualization  
+
+
 
 
