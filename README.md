@@ -89,7 +89,33 @@ This project is broken down into 3 categories:
 
 ### Time series Forecast Results 
 
-- For the time series predictions / forecast, only **SARIMA and Facebook Prophet** were used to forecast the accident rates for the next 2 years, this is because when the data was aggregated ***monthly*** for the modelling, it became small and when trained on the LSTM models they weren't able to generalize well on un-seen data ***(after long hours of trials and experimenting with the LSTM hyperparameters)***. As a result, of this we didn't use them for forecasting.
+
+**- Model training results (Train data == '2005-01-01' - '2013-12-01'; Test Data == '2014-01-01' - '2014-12-01';)**
+
+
+ - Model evaluation metrics
+MAE -- Mean Absolute Error
+MAPE -- Mean Absolute Percentage Error
+
+
+
+|        Models     |   MAE | MAPE|
+| ----------------  | ----- | --- |
+|      SARIMA       | 27.3 | 0.05 |
+|  Facebook Prophet | 9.45 | 0.01 |
+|        LSTM       | 21.54| 0.04 |
+|         GRU       | 20.87| 0.04 |
+|Bidirectional LSTM | 21.40| 0.04 |
+|Convolutional LSTM | 20.98| 0.04 |
+
+
+- From the above tables, Facebook Prophet outperforms other models to become the best model for our timeseries forecast, LSTM and GRU models were not able to generalize well enough on the out-of-sample because of the **SMALL SIZE (120 data rows)** of the data after aggregating the data into monthly data. Interestingly, despite the fact that SARIMA model performed worst based on the MAE nad MAPE, it was still able to generalize well when we plotted the predicted value alongside the actual value.
+
+
+
+- Overall, only **SARIMA and Facebook Prophet** were used to forecast the accident rates for the next 2 years, simply because LSTM models weren't able to generalize well on un-seen data ***(after long hours of trials and experimenting with the LSTM hyperparameters)***. As a result, of this we didn't use them for forecasting.
+
+
 
 
 ### Time Series Forecast
