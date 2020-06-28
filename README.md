@@ -19,7 +19,7 @@
 # Predictive_Analytics_UK_Road_Traffic_Accident
 
 
-#### This project entails performing in-depth descriptive analysis and data visualization on the United Kingdom road traffic (2000 - 2018) and accident dataset (2005 - 2014) and further forecasting / predicting the rate of accident for the next two years based on the available time series dataset.
+This project entails performing in-depth descriptive analysis and data visualization on the United Kingdom road traffic (2000 - 2018) and accident dataset (2005 - 2014) and further forecasting / predicting the rate of accident for the next two years based on the available time series dataset.
 
 #### It is recommended to view the notebook using [nbviewer](https://nbviewer.jupyter.org/) as most of the plots and figures are interactive, the nbviewer links for each category (notebook) is provided below.
 
@@ -99,14 +99,14 @@ MAPE -- Mean Absolute Percentage Error
 
 
 
-|        Models     |   MAE | MAPE|
-| ----------------  | ----- | --- |
-|      SARIMA       | 27.3 | 0.05 |
-|  Facebook Prophet | 9.45 | 0.01 |
-|        LSTM       | 21.54| 0.04 |
-|         GRU       | 20.87| 0.04 |
-|Bidirectional LSTM | 21.40| 0.04 |
-|Convolutional LSTM | 20.98| 0.04 |
+|        Models     |   MAE | MAPE %|
+| ----------------  | ----- | ----- |
+|      SARIMA       | 27.3  |  5.18 |
+|  Facebook Prophet | 9.45  | 1.79  |
+|        LSTM       | 21.54 |  4.21 |
+|         GRU       | 20.87 |  4.04 |
+|Bidirectional LSTM | 21.40 | 4.18  |
+|Convolutional LSTM | 20.98 |  4.10 |
 
 
 - From the above tables, Facebook Prophet outperforms other models to become the best model for our timeseries forecast, LSTM and GRU models were not able to generalize well enough on the out-of-sample because of the **SMALL SIZE (120 data rows)** of the data after aggregating the data into monthly data. Interestingly, despite the fact that SARIMA model performed worst based on the MAE nad MAPE, it was still able to generalize well when we plotted the predicted value alongside the actual value.
