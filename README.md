@@ -69,16 +69,11 @@ This project is broken down into 3 categories:
 ![uk_road][image1]
 
 
-### Analytics Results and Visualization  (Just a few insightful visualizations.....further check the notebooks for more insights)
+### Analytics Results and Visualization  (Just a few insightful visualizations.....check the notebooks for more insights)
 
 ![veh_trd][image2]
-![pedal_trd][image3]
-![van_trd][image4]
 ![rd_cat][image5]
 ![regions][image6]
-![veh_flow][image7]
-![hvg_flow][image8]
-![bus_flow][image9]
 ![reg_acc][image10]
 ![rd_net][image11]
 ![acc_trd][image12]
