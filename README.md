@@ -16,7 +16,7 @@
 [image14]: ./analytics_viz/sar_fr.JPG "sar"
 [image15]: ./analytics_viz/fb_forecast.JPG "fb_forecast"
 
-# Timeseries_Analytics_Forecast_UK_Road_Traffic_Accident
+# Timeseries analysis and forecast on UK’s road traffic and accident data
 
 
 This project entails performing in-depth descriptive analysis and data visualization on the United Kingdom road traffic (2000 - 2018) and accident dataset (2005 - 2014) and further forecasting / predicting the rate of accident for the next two years based on the available time series dataset.
